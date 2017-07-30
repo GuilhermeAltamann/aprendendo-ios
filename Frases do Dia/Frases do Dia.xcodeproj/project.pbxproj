@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542B35E01ED9C5F200E60139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542B35DF1ED9C5F200E60139 /* AppDelegate.swift */; };
+		542B35E21ED9C5F200E60139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542B35E11ED9C5F200E60139 /* ViewController.swift */; };
+		542B35E51ED9C5F200E60139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542B35E31ED9C5F200E60139 /* Main.storyboard */; };
+		542B35E71ED9C5F200E60139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542B35E61ED9C5F200E60139 /* Assets.xcassets */; };
+		542B35EA1ED9C5F200E60139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542B35E81ED9C5F200E60139 /* LaunchScreen.storyboard */; };
+		542B35F41ED9C64400E60139 /* aspas-direita.png in Resources */ = {isa = PBXBuildFile; fileRef = 542B35F11ED9C64400E60139 /* aspas-direita.png */; };
+		542B35F51ED9C64400E60139 /* aspas-esquerda.png in Resources */ = {isa = PBXBuildFile; fileRef = 542B35F21ED9C64400E60139 /* aspas-esquerda.png */; };
+		542B35F61ED9C64400E60139 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 542B35F31ED9C64400E60139 /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		542B35DC1ED9C5F200E60139 /* Frases do Dia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frases do Dia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542B35DF1ED9C5F200E60139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		542B35E11ED9C5F200E60139 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		542B35E41ED9C5F200E60139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		542B35E61ED9C5F200E60139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		542B35E91ED9C5F200E60139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		542B35EB1ED9C5F200E60139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542B35F11ED9C64400E60139 /* aspas-direita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aspas-direita.png"; sourceTree = "<group>"; };
+		542B35F21ED9C64400E60139 /* aspas-esquerda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aspas-esquerda.png"; sourceTree = "<group>"; };
+		542B35F31ED9C64400E60139 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		542B35D91ED9C5F200E60139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		542B35D31ED9C5F200E60139 = {
+			isa = PBXGroup;
+			children = (
+				542B35DE1ED9C5F200E60139 /* Frases do Dia */,
+				542B35DD1ED9C5F200E60139 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		542B35DD1ED9C5F200E60139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				542B35DC1ED9C5F200E60139 /* Frases do Dia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		542B35DE1ED9C5F200E60139 /* Frases do Dia */ = {
+			isa = PBXGroup;
+			children = (
+				542B35F11ED9C64400E60139 /* aspas-direita.png */,
+				542B35F21ED9C64400E60139 /* aspas-esquerda.png */,
+				542B35F31ED9C64400E60139 /* logo.png */,
+				542B35DF1ED9C5F200E60139 /* AppDelegate.swift */,
+				542B35E11ED9C5F200E60139 /* ViewController.swift */,
+				542B35E31ED9C5F200E60139 /* Main.storyboard */,
+				542B35E61ED9C5F200E60139 /* Assets.xcassets */,
+				542B35E81ED9C5F200E60139 /* LaunchScreen.storyboard */,
+				542B35EB1ED9C5F200E60139 /* Info.plist */,
+			);
+			path = "Frases do Dia";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		542B35DB1ED9C5F200E60139 /* Frases do Dia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542B35EE1ED9C5F200E60139 /* Build configuration list for PBXNativeTarget "Frases do Dia" */;
+			buildPhases = (
+				542B35D81ED9C5F200E60139 /* Sources */,
+				542B35D91ED9C5F200E60139 /* Frameworks */,
+				542B35DA1ED9C5F200E60139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frases do Dia";
+			productName = "Frases do Dia";
+			productReference = 542B35DC1ED9C5F200E60139 /* Frases do Dia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		542B35D41ED9C5F200E60139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Guilherme Pires";
+				TargetAttributes = {
+					542B35DB1ED9C5F200E60139 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CH8K5ST29C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 542B35D71ED9C5F200E60139 /* Build configuration list for PBXProject "Frases do Dia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 542B35D31ED9C5F200E60139;
+			productRefGroup = 542B35DD1ED9C5F200E60139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				542B35DB1ED9C5F200E60139 /* Frases do Dia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		542B35DA1ED9C5F200E60139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542B35EA1ED9C5F200E60139 /* LaunchScreen.storyboard in Resources */,
+				542B35E71ED9C5F200E60139 /* Assets.xcassets in Resources */,
+				542B35F61ED9C64400E60139 /* logo.png in Resources */,
+				542B35E51ED9C5F200E60139 /* Main.storyboard in Resources */,
+				542B35F41ED9C64400E60139 /* aspas-direita.png in Resources */,
+				542B35F51ED9C64400E60139 /* aspas-esquerda.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		542B35D81ED9C5F200E60139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542B35E21ED9C5F200E60139 /* ViewController.swift in Sources */,
+				542B35E01ED9C5F200E60139 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		542B35E31ED9C5F200E60139 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542B35E41ED9C5F200E60139 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		542B35E81ED9C5F200E60139 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542B35E91ED9C5F200E60139 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		542B35EC1ED9C5F200E60139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		542B35ED1ED9C5F200E60139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		542B35EF1ED9C5F200E60139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CH8K5ST29C;
+				INFOPLIST_FILE = "Frases do Dia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.devizao.Frases-do-Dia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		542B35F01ED9C5F200E60139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CH8K5ST29C;
+				INFOPLIST_FILE = "Frases do Dia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.devizao.Frases-do-Dia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		542B35D71ED9C5F200E60139 /* Build configuration list for PBXProject "Frases do Dia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542B35EC1ED9C5F200E60139 /* Debug */,
+				542B35ED1ED9C5F200E60139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542B35EE1ED9C5F200E60139 /* Build configuration list for PBXNativeTarget "Frases do Dia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542B35EF1ED9C5F200E60139 /* Debug */,
+				542B35F01ED9C5F200E60139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 542B35D41ED9C5F200E60139 /* Project object */;
+}
